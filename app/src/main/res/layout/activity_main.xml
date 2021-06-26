@@ -16,31 +16,33 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <TextView
         android:id="@+id/resultadoText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resultadoText"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/soma"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
         android:id="@+id/resultadoValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/resultadoValue"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toEndOf="@+id/resultadoText"
         app:layout_constraintTop_toBottomOf="@+id/soma"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/valor1"
@@ -95,5 +97,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/valor2"
         app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/multiplicacao"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/valor2"
+        app:layout_constraintVertical_bias="0.4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
