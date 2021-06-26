@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">atividade3</string>
+    <string name="titulo">Calculadora</string>
+    <string name="resultadoText">resultado =</string>
+    <string name="resultadoValue">00</string>
+    <string name="valor2">Digite o segundo valor</string>
+    <string name="valor1">Digite o primeiro valor</string>
+    <string name="soma">+</string>
+</resources>
