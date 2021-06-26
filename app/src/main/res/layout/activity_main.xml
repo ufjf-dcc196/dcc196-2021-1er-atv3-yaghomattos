@@ -102,6 +102,7 @@
         android:id="@+id/multiplicacao"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
+        android:onClick="multiplicacao"
         android:text="*"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
