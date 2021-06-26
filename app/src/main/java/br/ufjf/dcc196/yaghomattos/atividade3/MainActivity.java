@@ -43,4 +43,21 @@ public class MainActivity extends AppCompatActivity {
         else
             viewResultado.setText("x_x");
     }
+    public void subtracao(View view) {
+        Double valor1 = 0.0;
+        Double valor2 = 0.0;
+        Double resultado = null;
+        try {
+            valor1 = Double.parseDouble(editValor1.getText().toString());
+            valor2 = Double.parseDouble(editValor2.getText().toString());
+            resultado = valor1 - valor2;
+        } catch (Exception e) {
+            new Error("Houve um erro na Subtração");
+        }
+
+        if(resultado != null)
+            viewResultado.setText(resultado.toString());
+        else
+            viewResultado.setText("x_x");
+    }
 }
